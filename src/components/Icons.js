@@ -462,3 +462,11 @@ export const LinkArrow = ({ className, ...rest }) => (
   </svg>
 );
 
+
+
+{/** 
+  1- faire le design sur canva 
+  2- telecharger l'image puis retirer le fond avec erase.bg
+  3- convertir l'image en svg avec abode en ligne
+  4- convertir en svg avec https://react-svgr.com/playground/
+  */}

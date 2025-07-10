@@ -44,7 +44,7 @@ const NavBar = () => {
       <motion.a href="https://twitter.com/" target={"_blank"}
       whileHover={{ y: -2 }}
       whileTap={{ scale: 0.9 }}
-      classNameme="w-6 mx-3 flex items-center justify-center">
+      className="w-6 mx-3 flex items-center justify-center">
         <TwitterIcon />
       </motion.a>
       <motion.a href="https://www.linkedin.com/" target={"_blank"}

@@ -5,6 +5,8 @@ import Image from 'next/image'
 import ProfilePic from "../../public/images/profile/jonatan.jpg";
 import Link from 'next/link';
 import { LinkArrow } from '@/components/Icons';
+import Hireme from '@/components/HireMe';
+import lightbulb from "../../public/images/svgs/miscellaneous_icons_1.svg";
 export default function Home() {
   return (
     <>
@@ -42,6 +44,10 @@ export default function Home() {
           </div>
           </div>
       </Layout>
+      <Hireme/>
+      <div className="absolute right-8 bottom-8 inline-block w-24">
+      <Image src={lightbulb} alt="Jonatan Kamdadi" className="w-full h-auto"/>
+      </div>
       </main>
     </>
   )
