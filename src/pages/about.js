@@ -6,7 +6,7 @@ import Head from 'next/head';
 import AnimatedText from '@/components/AnimatedText';
 import profilePic from '../../public/images/profile/profile_jonatan.jpg'; // Adjust the path as necessary
 import {useEffect,useRef} from 'react';
-
+import Skills from '@/components/Skills';
 import { useInView, useMotionValue, useSpring } from 'framer-motion';
 const AnimatedNumbers=({value})=>{
   const ref=useRef(null);
@@ -38,7 +38,7 @@ const About = () => {
       </Head>
       <main className="flex w-full flex-col items-center justify-center text-dark dark:text-light">
         <Layout className='pt-16'>
-          <AnimatedText text="Passion fuels purpose" className="mb-16"/>
+          <AnimatedText text="Passion fuels purpose !" className="mb-16"/>
           <div className='grid w-full grid-cols-8 gap-16'>
             <div className="col-span-3 flex flex-col items-start justify-start">
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 "> Biography</h2>
@@ -80,6 +80,8 @@ const About = () => {
               </div>
             </div>
           </div>
+
+          <Skills />
         </Layout>
       </main>
     </>
