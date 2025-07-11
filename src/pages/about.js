@@ -7,6 +7,8 @@ import AnimatedText from '@/components/AnimatedText';
 import profilePic from '../../public/images/profile/profile_jonatan.jpg'; // Adjust the path as necessary
 import {useEffect,useRef} from 'react';
 import Skills from '@/components/Skills';
+import Experience from '@/components/Experience';
+import Education from '@/components/Education';
 import { useInView, useMotionValue, useSpring } from 'framer-motion';
 const AnimatedNumbers=({value})=>{
   const ref=useRef(null);
@@ -82,6 +84,8 @@ const About = () => {
           </div>
 
           <Skills />
+          <Experience />
+          <Education />
         </Layout>
       </main>
     </>
