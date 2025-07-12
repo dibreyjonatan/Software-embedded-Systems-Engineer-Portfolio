@@ -20,7 +20,7 @@ const FeaturedProject = ({type,title,summary,image,link,github}) => {
 
         <Link href={link} target="_blank"
             className="w-1/2 cursor-pointer overflow-hidden rounded-lg">
-        <Image src={image} alt={title} className="w-full h-auto" />
+        <Image src={image} alt={title} className="w-full h-auto " />
         </Link>
         <div className="w-1/2 flex flex-col items-start justify-between pl-6">
             <span className="text-primary font-semibold text-xl dark:text-primaryDark">
@@ -35,11 +35,12 @@ const FeaturedProject = ({type,title,summary,image,link,github}) => {
                 {summary}
             </p>
             <div className='mt-2 flex items-center'>
-                <Link href={github} target="_blank" className='w-10'>
+                <Link href={github} target="_blank" className='w-10 '>
                     <GithubIcon />
                 </Link>
                 <Link href={link} target="_blank" className="ml-4 
-                rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold">
+                rounded-lg bg-dark text-light p-2 px-6 text-lg font-semibold
+                dark:bg-light dark:text-dark">
                     Visit Project
                 </Link>
             </div>
@@ -54,7 +55,7 @@ const projects = () => {
             <title>Projects Page</title>
             <meta name="description" content="project section" />
         </Head>
-        <main className='w-full mb-16 flex flex-col items-center justify-center'>
+        <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
             <Layout className='pt-16'>
                 <AnimatedText className="text-center mb-16" text="Imagination Trumps Knowledge!" />
                 <div className='grid grid-cols-12 gap-24 ml-10 mr-10'>
