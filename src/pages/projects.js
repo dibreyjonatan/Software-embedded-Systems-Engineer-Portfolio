@@ -1,6 +1,7 @@
 import React from 'react'   
 import Head from 'next/head';
 import AnimatedText from '@/components/AnimatedText';
+import TransitionEffect from '@/components/TransitionEffect';
 import Layout from '@/components/Layout';
 import Link from 'next/link';
 import Image from 'next/image';
@@ -63,6 +64,7 @@ const projects = () => {
             <title>Projects Page</title>
             <meta name="description" content="project section" />
         </Head>
+        <TransitionEffect />
         <main className='w-full mb-16 flex flex-col items-center justify-center dark:text-light'>
             <Layout className='pt-16'>
                 <AnimatedText className="text-center mb-16
