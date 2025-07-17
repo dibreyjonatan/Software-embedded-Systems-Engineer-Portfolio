@@ -154,7 +154,7 @@ const NavBar = () => {
       className="w-6 mx-3 flex items-center justify-center sm:mx-1">
         <TwitterIcon />
       </motion.a>
-      <motion.a href="https://www.linkedin.com/" target={"_blank"}
+      <motion.a href="https://linkedin.com/in/dibrey-jonatan-kamda-tezebo-a383b4262/" target={"_blank"}
        whileHover={{ y: -2 }}
       whileTap={{ scale: 0.9 }}
       className="w-6 mx-3 flex items-center justify-center sm:mx-1">
@@ -172,7 +172,7 @@ const NavBar = () => {
       className="w-6 mx-3 flex items-center justify-center sm:mx-1">
         <DribbbleIcon />
       </motion.a>
-      <motion.a href="https://github.com/" target={"_blank"}
+      <motion.a href="https://github.com/dibreyjonatan" target={"_blank"}
       whileHover={{ y: -2 }}
       whileTap={{ scale: 0.9 }}
       className="w-6 ml-3 flex items-center justify-center bg-light rounded-full dark:bg-dark sm:mx-1">
