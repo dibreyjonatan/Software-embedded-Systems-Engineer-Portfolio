@@ -7,9 +7,11 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { GithubIcon } from '@/components/Icons';
 // import images as static paths or use them directly as strings in the Image component
-import cryptoScreenerImage from '../../public/images/projects/crypto-screener-cover-image.jpg';
-import agencyWebsiteImage from '../../public/images/projects/agency-website-cover-image.jpg';
-import fashionStudioImage from '../../public/images/projects/fashion-studio-website.jpg';
+
+import Project1 from '../../public/images/projects/projet-1.PNG' ;
+import Project2 from '../../public/images/projects/project-2.png' ;
+import Project3 from '../../public/images/projects/project-3.png' ;
+
 const FeaturedProject = ({type,title,summary,image,link,github}) => {
     return (
         <article className="w-full flex items-center 
@@ -76,31 +78,34 @@ const projects = () => {
                     </div>
                     <div className="col-span-6 sm:col-span-12 ">
                         <FeaturedProject
-                            type="Featured"
-                            title="Project 1"
-                            summary="This is a summary of project 1."
-                            image={cryptoScreenerImage}
-                            link="/projects/project1"
+                            type="Robotics project"
+                            title="PyQt Turtlesim Interface"
+                            summary="This project leverages the robust capabilities of PyQt5 and ROS2 Jazzy Jalisco to create an intuitive graphical user interface (GUI) for controlling the Turtlesim bot. By integrating PyQt5, the project provides a user-friendly interface for seamless interaction with the simulation environment. ROS2 Jazzy Jalisco ensures efficient communication and command execution to the Turtlesim. The successful implementation of this GUI demonstrates proficiency in front-end development with PyQt5 and back-end 
+                            robotic control with ROS2, specifically for simulation and visualization tasks."
+                            image={Project1}
+                            link="https://github.com/dibreyjonatan/Ros2_jazzy_jalisco_turtlesim_interface.git"
                             github="/github/project1"
                         />
                     </div>
                     <div className="col-span-6 sm:col-span-12">
                         <FeaturedProject
-                            type="Featured"
-                            title="Project 2"
-                            summary="This is a summary of project 2."
-                            image={agencyWebsiteImage}
-                            link="/projects/project2"
+                            type="Hardware Verification process"
+                            title="Hardware Verification with Cocotb"
+                            summary="This project focuses on establishing a robust test bench environment for verifying Register-Transfer Level (RTL) code, specifically designs written in Verilog or VHDL. The methodology leverages Python for test automation and the Cocotb co-simulation framework for seamless interaction with the RTL design. A Makefile-driven approach is employed to manage the build process, test execution, and simulation flows. This setup ensures comprehensive and efficient verification of the RTL code 
+                            by enabling complex test scenarios and automated regression testing."
+                            image={Project2}
+                            link="https://github.com/dibreyjonatan/Hardware-Verification-with-Cocotb-and-python.git"
                             github="/github/project2"
                         />
                     </div>
                     <div className="col-span-6 sm:col-span-12">
                         <FeaturedProject
-                            type="Featured"
-                            title="Project 3"
-                            summary="This is a summary of project 3."
-                            image={fashionStudioImage}
-                            link="/projects/project3"
+                            type="IOT project"
+                            title="Home Assistance Graphical User Interface Implemented using MQTT communication"
+                            summary="TThis project demonstrates a robust IoT control system, leveraging a Raspberry Pi as the central hub. Commands are issued via a user-friendly PyQt graphical user interface (GUI) and transmitted efficiently through an MQTT protocol, utilizing an Eclipse broker for reliable message queuing. This setup showcases a comprehensive understanding of embedded systems, network communication protocols,
+                             and GUI development for real-time data exchange and control."
+                            image={Project3}
+                            link="https://www.linkedin.com/posts/dibrey-jonatan-kamda-tezebo-a383b4262_iot-mqtt-embeddedsystems-activity-7273626415718137856-WCp3?utm_source=share&utm_medium=member_android&rcm=ACoAAEB8n8wBR_-L6XjQ52syjdG6SenCKS1kWrc"
                             github="/github/project3"
                         />
                     </div>
