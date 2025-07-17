@@ -52,7 +52,7 @@ const About = () => {
               <h2 className="mb-4 text-lg font-bold uppercase text-dark/75 
               dark:text-light/75"> Biography</h2>
               <p className="font-medium">
-                Hi, I am Dibrey Jonatan, a passionate embedded systems developer with a strong foundation in software engineering and a keen interest in creating efficient, reliable, and innovative solutions for real-world challenges. My journey in the field has been driven by a desire to push the boundaries of technology and deliver high-quality software that meets the unique demands of embedded systems.
+                Hi, I am Dibrey Jonatan, a passionate embedded systems Engineer with a strong foundation in electronic systems, computer science and a keen interest in creating efficient, reliable, and innovative solutions for real-world challenges. My journey in the field has been driven by a desire to push the boundaries of technology and deliver high-quality software that meets the unique demands of embedded systems.
               </p>
               <p className="my-4 font-medium">
                 With a solid background in embedded systems engineering, I have honed my skills in designing and implementing software solutions that operate seamlessly within resource-constrained environments. My expertise lies in developing efficient algorithms, optimizing performance, and ensuring the reliability of embedded applications.
@@ -77,16 +77,16 @@ const About = () => {
               xl:items-center">
                 <span className="inline-block mb-2 text-7xl font-bold
                 md:text-6xl sm:text-5xl xs:text-4xl">
-                <AnimatedNumbers value={50} />+
+                <AnimatedNumbers value={15} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75
-                xl:text-center md:text-lg sm:text-base xs:text-sm"> satisfied clients</h2>
+                xl:text-center md:text-lg sm:text-base xs:text-sm">Technology used</h2>
               </div>
 
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block mb-2 text-7xl font-bold
                  md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={40} />+
+                  <AnimatedNumbers value={10} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75
                 xl:text-center md:text-lg sm:text-base xs:text-sm"> projects completed</h2>
@@ -95,7 +95,7 @@ const About = () => {
               <div className="flex flex-col items-end justify-center xl:items-center">
                 <span className="inline-block text-7xl font-bold
                  md:text-6xl sm:text-5xl xs:text-4xl">
-                  <AnimatedNumbers value={5} />+
+                  <AnimatedNumbers value={1} />+
                 </span>
                 <h2 className="text-xl font-medium capitalize text-dark/75 dark:text-light/75
                 xl:text-center md:text-lg sm:text-base xs:text-sm"> Experience</h2>
