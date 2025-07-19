@@ -37,7 +37,7 @@ export default function Home() {
             <AnimatedText 
               text="Crafting intelligent embedded systems, from concept to code under real-world constraints"
               className="!text-6xl !text-left 
-              xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-3xl  " />
+              xl:!text-5xl lg:!text-center lg:!text-6xl md:!text-5xl sm:!text-xs " />
             <p className="my-4 text-base font-medium  text-left md:text-sm sm:text-xs">
               I specialize in developing efficient and reliable software for embedded systems, ensuring optimal performance and adherence to real-time requirements.
               With a solid foundation in embedded systems engineering, I excel in designing and implementing software solutions that meet the unique challenges of resource-constrained environments.
